@@ -25,3 +25,52 @@ body {
     font-family: "Bebas Neue";
     src: url("./fonts/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
 }
+
+header {
+    margin-top: 2%;
+    color: white;
+    width: 100%;
+    font-family: "Bebas Neue";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#headline {
+    font-size: 4rem;
+    margin: 2% 0;
+}
+
+#tab-switch {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab {
+    padding: 0;
+    margin: 0 10px;
+    border: none;
+    background: none;
+    font-family: inherit;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.tab:hover, .tab:focus {
+    text-decoration: underline;
+    text-decoration-color: #48cae4;
+    text-decoration-thickness: 0.4rem;
+}
+
+.tab:active {
+    background: none;
+}
+
+@media (max-width: 500px) and (orientation: portrait), (max-width: 825px) and (orientation: landscape) {
+    html {
+        font-size: 11px;
+    }
+}
+
