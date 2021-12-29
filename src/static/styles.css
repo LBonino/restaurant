@@ -88,6 +88,8 @@ footer {
     color: #48cae4;
 }
 
+
+@media (max-width: 751px) and (orientation: portrait), (max-width: 825px) and (orientation: landscape) {
     html {
         font-size: 11px;
     }
