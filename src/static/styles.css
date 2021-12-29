@@ -68,6 +68,41 @@ header {
     background: none;
 }
 
+@font-face {
+    font-family: "Bitter";
+    src: url("./fonts/Bitter/Bitter-Regular.ttf");
+}
+
+main {
+    margin-top: 4vh;
+    max-height: 60%;
+    overflow: auto;
+    width: 50%;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Bitter', serif;
+    color: white;
+}
+
+main > * {
+    margin: 0.6rem 0;
+}
+
+#main-heading {
+    font-size: 1.9rem;
+}
+
+.main-paragraph {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0 1rem;
+    line-height: 2.4rem;
+}
+
 footer {
     font-family: "Bebas Neue";
     color: white;
@@ -93,5 +128,8 @@ footer {
     html {
         font-size: 11px;
     }
-}
 
+    main {
+        width: 80%;
+    }
+}
