@@ -68,7 +68,26 @@ header {
     background: none;
 }
 
-@media (max-width: 500px) and (orientation: portrait), (max-width: 825px) and (orientation: landscape) {
+footer {
+    font-family: "Bebas Neue";
+    color: white;
+    margin-top: auto;
+    font-size: 1.2rem;
+}
+
+#github-link {
+    color: white;
+    text-decoration: none;
+}
+
+#github-link:hover {
+    text-decoration: underline;
+}
+
+#github-link:active {
+    color: #48cae4;
+}
+
     html {
         font-size: 11px;
     }
