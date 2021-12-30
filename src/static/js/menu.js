@@ -1,6 +1,9 @@
-const renderMenu = () => {
-    const heading = document.querySelector("#tab-heading");
-    heading.textContent = "Our menu";
-};
+const tabHeading = "Our menu";
 
-export {renderMenu};
+const tabContent = (() => {
+    // TODO
+})();
+
+const menuTab = {tabHeading, tabContent};
+
+export {menuTab};

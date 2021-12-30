@@ -1,6 +1,9 @@
-const renderContact = () => {
-    const heading = document.querySelector("#tab-heading");
-    heading.textContent = "Contact us";
-};
+const tabHeading = "Contact us";
 
-export {renderContact};
+const tabContent = (() => {
+    // TODO
+})();
+
+const contactTab = {tabHeading, tabContent};
+
+export {contactTab};
