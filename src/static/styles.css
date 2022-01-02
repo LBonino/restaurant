@@ -139,6 +139,20 @@ main > * {
     object-fit: cover;
 }
 
+#contact-tab {
+    margin: 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Bebas Neue";
+    font-size: 2rem;
+    text-align: center;
+}
+
+#contact-tab p {
+    margin: 0.65rem;
+}
+
 footer {
     font-family: "Bebas Neue";
     color: white;
